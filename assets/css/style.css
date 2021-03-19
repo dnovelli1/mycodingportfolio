@@ -10,7 +10,19 @@ body {
 .header {
     background-color: rgb(42, 36, 83);
     color: snow;
-    text-align: left;
-    padding: 20px;
+    display: inline-block;
     font-size: 35px;
+}
+
+.header h1 .name {
+    background-color: rgb(8, 107, 187);
+    padding: 20px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 25px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
