@@ -5,17 +5,20 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+:root {
+    --textcolor: rgb(255, 255, 255);
+}
+
 .header {
     padding: 40px;
-    background-color:#be6816;
+    background: linear-gradient(rgb(93,170,220), rgb(4,23,54));
 }
 
 .header h1 {
     font-weight: bolder;
     text-align: center;
     float: left;
-    color:rgb(255, 255, 255);
-    background-color:rgb(21, 16, 61);
+    color:var(--textcolor);
 }
 
 .header nav {
@@ -30,12 +33,12 @@
 
 .header a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color:var(--textcolor);
     font-size: 20px;
 }
 
 .header a:hover {
-    color:rgb(21, 16, 61);
+    color:rgb(4,23,54);
 }
 
 .break {
@@ -43,14 +46,28 @@
     height: 400px;
     margin-bottom: 20px;
     background-image: url("../images/programmingimg2.jpg");
+    background-size: contain;
+}
+
+.caption1 {
+   background: linear-gradient(rgb(93,170,220), rgb(4,23,54));
+   border-color:;
+   border-style: solid;
+   position: absolute;
+   color:var(--textcolor);
+   margin: -110px 0 0 60%;
+   padding: 0px 20px 0px 20px;
+   border-radius: 10px;
 
 }
 
-p {
-    
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .header h1 {
         float:none;
         display: block;
