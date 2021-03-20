@@ -44,14 +44,13 @@
 .break {
     width: 100%;
     height: 400px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     background-image: url("../images/programmingimg2.jpg");
     background-size: contain;
 }
 
 .caption1 {
    background: linear-gradient(rgb(93,170,220), rgb(4,23,54));
-   border-color:;
    border-style: solid;
    position: absolute;
    color:var(--textcolor);
@@ -61,15 +60,21 @@
 
 }
 
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
+.aboutme h2{
+    margin-top: 20px;
+    width: 20%;
+    border-right: solid;
+    position: relative;
+    padding: 20px;
+    height: 200px;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
+.aboutme p {
+    float: right;
+    position: relative;
+    width: 70%;
+    bottom: 180px;
+    padding: -20px;
 }
 
 
@@ -83,6 +88,7 @@
     .header a {
         float: none;
         text-align: center;
+        margin-right: 15px;
     }
     
 }
