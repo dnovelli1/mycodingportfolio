@@ -60,21 +60,59 @@
 
 }
 
+
 .aboutme h2{
-    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
     width: 20%;
     border-right: solid;
     position: relative;
     padding: 20px;
-    height: 200px;
+    height: 300px;
 }
 
 .aboutme p {
     float: right;
     position: relative;
     width: 70%;
-    bottom: 180px;
-    padding: -20px;
+    bottom: 300px;
+}
+
+.work h2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 20%;
+    border-right: solid;
+    position: relative;
+    padding: 20px;
+    height: 300px;
+}
+
+.work p {
+    float: right;
+    position: relative;
+    width: 70%;
+    bottom: 300px;
+}
+
+.contact h2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 20%;
+    border-right: solid;
+    position: relative;
+    padding: 20px;
+    height: 300px;
+}
+
+.contact p {
+    float: right;
+    position: relative;
+    width: 70%;
+    bottom: 300px;
 }
 
 
