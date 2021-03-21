@@ -82,31 +82,107 @@
 .work h2{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 130px;
     width: 20%;
     border-right: solid;
     position: relative;
     padding: 20px;
-    height: 300px;
+    height: 500px;
 }
 
-.work p {
+.work .container {
     float: right;
-    position: relative;
+    margin-top: -500px;
+    margin-right: 20px;
     width: 70%;
-    bottom: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.container div {
+    padding: 20px 0;
+    font-size: 20px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:last baseline
+}
+
+.bg1 {
+    height: 300px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background:url('../images/surfreport.jpg');
+    border-style: solid;
+    color: blue;
+
+}
+
+.bg2 {
+    border-style: solid;
+    color: blue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background:url('../images/ledwall.jpg')
+
+}
+
+.bg3 {
+    border-style: solid;
+    color: blue;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background:url('../images/calculator.jpg')
+
+}
+
+.bg4 {
+    border-style: solid;
+    color: blue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background:url('../images/pastelpuzzle.jpg')
+
+}
+
+.bg5 {
+    border-style: solid;
+    color: blue;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background:url('../images/runbuddy.jpg')
+
+}
+
+h3 {
+    color: white;
+    font-weight: bolder;
+    background: wheat;
+    margin-right: 80%;
 }
 
 .contact h2{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 400px;
     width: 20%;
     border-right: solid;
     position: relative;
     padding: 20px;
     height: 300px;
 }
+
 
 .contact p {
     float: right;
@@ -130,3 +206,5 @@
     }
     
 }
+
+@media screen and 
