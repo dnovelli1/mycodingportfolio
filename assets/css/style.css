@@ -68,7 +68,7 @@ body {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
@@ -76,15 +76,25 @@ h2 {
 .aboutme h2{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+    padding: 30px;
+    height: 350px;
+}
+
+.myphoto {
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
     width: 20%;
     border-right: solid;
     border-color: rgb(4,23,54);
-    position: relative;
-    padding: 20px;
     height: 300px;
+    background: url('../images/pictureofmyself.jpg') no-repeat center;
+    background-size: cover;
 }
-
 .aboutme p {
     float: right;
     position: relative;
@@ -122,6 +132,11 @@ h2 {
     border-radius: 6px;
     border-style: solid;
     color:rgb(4,23,54)
+}
+
+.container figure:hover {
+    opacity: 0.7;
+    transform: scale(.95);
 }
 
 .photo1 {
@@ -211,12 +226,14 @@ h3 {
 
 @media screen and (max-width: 600px) {
     .header h1 {
+        width: 100%;
         float:none;
         text-align: center;
         display: block;
     }
 
     .header a {
+        width: 100%;
         padding: 5px;
         display: block;
     }
@@ -229,6 +246,18 @@ h3 {
         padding: 20px;
         border: none;
         height: 0px;
+    }
+
+    .myphoto {
+        margin-top: 30px;
+        display: block;
+        position: relative;
+        width: 100%;
+        border-right: none;
+        border-color: rgb(4,23,54);
+        height: 300px;
+        background: url('../images/pictureofmyself.jpg') no-repeat center;
+        background-size: cover;
     }
 
     .aboutme p {
