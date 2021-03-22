@@ -129,7 +129,7 @@ h2 {
     grid-gap: 10px;
 }
 
-.container figure {
+.container a {
     padding: 20px 0;
     font-size: 20px;
     background-size: cover;
@@ -141,7 +141,7 @@ h2 {
     color:rgb(4,23,54)
 }
 
-.container figure:hover {
+.container a:hover {
     opacity: 0.7;
     transform: scale(.95);
 }
