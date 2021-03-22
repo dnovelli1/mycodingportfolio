@@ -210,6 +210,7 @@ h3 {
 .contact {
     display:flex;
     margin-top: 80px;
+    height: 400px;
 }
 .contactsection {
     display: flex;
@@ -230,7 +231,7 @@ h3 {
     justify-content: space-between;
     list-style-type: none;
     font-size: 5em;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 25%; 
 }
 
@@ -337,5 +338,4 @@ h3 {
         font-size: 5em;
         margin-top: 0;
         margin-left: 20px;
-    
     }
