@@ -39,6 +39,7 @@
                     </a>
 
 '''CSS
+
 ![Peak](assets/images/csspeek.PNG)
 
 ## I have the entire website deployed here! Feel free to click and take a look!
