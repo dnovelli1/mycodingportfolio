@@ -21,7 +21,7 @@
 
 ## How was it made? Well take a look here!
 
-'''html
+'''HTML
 
             <h2>Work</h2>
                 <aside class="container">
@@ -38,6 +38,34 @@
                         </figure>
                     </a>
 
+'''CSS
+.work .container {
+    float: right;
+    margin-top: -500px;
+    margin-right: 20px;
+    width: var(--rightcolumnwidth);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.container a {
+    padding: 20px 0;
+    font-size: 20px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 6px;
+    border-style: solid;
+    color:rgb(4,23,54)
+}
+
+/* Hover effects */
+.container a:hover {
+    filter: blur(2px);
+    opacity: 0.7;
+    transform: scale(.95);
 
 ## I have the entire website deployed here! Feel free to click and take a look!
 
