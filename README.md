@@ -17,9 +17,9 @@
 
 ## How was it made? Well take a look here!
 
-'''HTML
+'''html
+section id="worklink" class="work">
 
-<section id="worklink" class="work">
             <h2>Work</h2>
                 <aside class="container">
                     <a class="photo1" target=blank href="#" alt="This will be my surf report link">
