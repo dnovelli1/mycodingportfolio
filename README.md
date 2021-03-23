@@ -9,7 +9,11 @@
 
 - HTML - used to create and edit electronic documents stored on the web.
 
-- CSS - used to edit style and appearance of the website.
+- CSS - used to edit style and appearance of the website. Which includes:
+
+    - Flexbox - a layout design that can make your website responsive to screen sizes by shrinking and growing.
+    - Media Queries - responsive web design that will make layouts appear differently on set screen sizes and resolutions.
+    - Display Grid's - grids are used to create a table of items that you can position accordingly.
 
 ## Site Preview
 
