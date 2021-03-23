@@ -15,4 +15,62 @@
 
 ![Site](assets/images/websitesneakpeek.PNG)
 
+## How was it made? Well take a look here!
+
+'''HTML
+
+<section id="worklink" class="work">
+            <h2>Work</h2>
+                <aside class="container">
+                    <a class="photo1" target=blank href="#" alt="This will be my surf report link">
+                        <figure>
+                            <h3>Surf Report</h3>
+                            <p>MERN Stack</p>
+                        </figure>
+                    </a>
+                    <a class="photo2" target=blank href="#" alt="This will be my LED Wall link">    
+                        <figure>
+                            <h3>LED Wall</h3>
+                            <p>Nodes/ IoT</p>
+                        </figure>
+                    </a>
+
+'''CSS
+
+.work .container {
+    float: right;
+    margin-top: -500px;
+    margin-right: 20px;
+    width: var(--rightcolumnwidth);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.container a {
+    padding: 20px 0;
+    font-size: 20px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 6px;
+    border-style: solid;
+    color:rgb(4,23,54)
+}
+
+.container a:hover {
+    opacity: 0.7;
+    transform: scale(.95);
+}
+
+.photo1 {
+    height: 300px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background:url('../images/surfreport.jpg');
+    
+}
 
