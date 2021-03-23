@@ -156,8 +156,6 @@ h2 {
 /* Hover effects */
 .container a:hover {
     filter: blur(2px);
-    opacity: 0.7;
-    transform: scale(.95);
 }
 
 /* Each photo and grid layout for each one */
