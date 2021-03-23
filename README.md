@@ -33,3 +33,14 @@
                             <p>Nodes/ IoT</p>
                         </figure>
                     </a>
+
+
+## I have the entire website deployed here! Feel free to click and take a look!
+
+[Full-Site](https://dnovelli1.github.io/mycodingportfolio/)
+
+## Links to my other Professional Site's!
+
+[LinkedIn](https://www.linkedin.com/in/david-jacob-novelli/)
+
+[GitHub](https://github.com/dnovelli1)
