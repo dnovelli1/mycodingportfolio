@@ -18,7 +18,6 @@
 ## How was it made? Well take a look here!
 
 '''html
-section id="worklink" class="work">
 
             <h2>Work</h2>
                 <aside class="container">
