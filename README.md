@@ -13,6 +13,6 @@
 
 ## Site Preview
 
-![Site](assets/images/websitesneakpeek.png)
+![Site](assets/images/websitesneakpeek.PNG)
 
 
